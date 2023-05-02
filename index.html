@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--font style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="user">
+            <img src="images/sid_profile.jpg" alt="">
+            <h3 class="name">Siddharth Ojha</h3>
+            <p class="post">Learning forever!</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+
+    <!--home section starts -->
+    <section class="home" id="home">
+        <h3>Hi there!</h3>
+        <h1>I'm <span>Siddharth Ojha</span></h1>
+        <p>I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am
+            friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy
+            environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when
+            solving problems.
+            <br> i like programming and development, scroll down to know more about me.....<i
+                class="fa-solid fa-face-smile-beam"></i>
+        </p>
+        <!--<a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a> -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-code"></i> Coding Platforms</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://leetcode.com/Sidojha07/"><i class="fa-solid fa-laptop-code"></i> LEETCODE</a>
+                <a href="https://www.codechef.com/users/holysid07"><i class="fa-solid fa-laptop-code"></i> CODECHEF</a>
+                <a href="https://www.hackerrank.com/siddharthojha201"><i class="fa-solid fa-laptop-code"></i>
+                    HACKERRANK</a>
+                <a href="https://auth.geeksforgeeks.org/user/siddharth4n07/"><i class="fa-solid fa-laptop-code"></i>
+                    GFG</a>
+            </div>
+        </div>
+    </section>
+    <!--home section ends -->
+
+    <!--about section starts-->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span>me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span> name :</span>Siddharth Ojha</h3>
+                <h3><span> age :</span>20</h3>
+                <h3><span> qualification :</span>B.TECH (E.C.E)</h3>
+                <h3><span>skills :</span>C++,C,Python,html,css,javascript etc</h3>
+                <h3><span>language :</span>English,Hindi</h3>
+                <a href="https://drive.google.com/file/d/1mBfwdpvcgMGF_CuVZa_AvnYPQFSporAS/view?usp=share_link"><button
+                        class="btn">Download CV<i class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>500+</span>
+                    <h3>coding questions solved</h3>
+                </div>
+                <div class="box">
+                    <span>5+</span>
+                    <h3>Projects completed using html,css and js.</h3>
+                </div>
+                <div class="box">
+                    <span>5*</span>
+                    <h3>At HACKERRANK</h3>
+                </div>
+                <div class="box">
+                    <span>12+</span>
+                    <h3>Badges and more.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+
+    <!--education section starts-->
+
+    <section class="education" id="education">
+        <h1 class="heading">my <span>education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2024</span>
+                <h3>B.TECH</h3>
+                <ul>
+                    <li>College: G.L BAJAJ </li>
+                    <li>Place: Greater Noida,(U.P)</li>
+                    <li>Branch: ELECTRONICS AND COMMUNICATION</li>
+                    <li>CGPA: 7.8</li>
+                </ul>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>12th</h3>
+                <ul>
+                    <li>School: Holy Cross </li>
+                    <li>Place: Ballia,(U.P)</li>
+                    <li>Subject: Physics,Chemistry and Maths</li>
+                    <li>Percentage: 83%</li>
+                </ul>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>10th</h3>
+                <ul>
+                    <li>School: Holy Cross </li>
+                    <li>Place: Ballia,(U.P)</li>
+                    <li>Subject: Science,English,G.S</li>
+                    <li>Percentage: 83%</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--education section ends-->
+    <!--portfolio section starts-->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">my <span>projects</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://sid-ojha.github.io/rock-paper-scissor/"> <img src="images/portfolio_1.png" alt=""></a>
+            </div>
+            <div class="box">
+                <a href="https://sid-ojha.github.io/my_Portfolio/"><img src="images/portfolio_2.jpg" alt=""></a>
+            </div>
+            <div class="box">
+                <img src="images/portfolio3.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!--portfolio section ends-->
+
+    <!--contact starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Contact</span> me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>Siddharthojha2002@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>6387295318</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i>Alpha-2,Greater Noida,India</h3>
+                    <div class="main">
+                        <a href="https://www.linkedin.com/in/siddharth-ojha-b68737209/"><i class="fa fa-linkedin-square"
+                                style="font-size:48px;color: #0a66c2;"></i></a>
+                        <a href="https://github.com/Sid-Ojha"><i class="fa-brands fa-github"
+                                style="font-size:48px;color:#fff"></i></a>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane "></i></button>
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
